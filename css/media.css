@@ -1,0 +1,228 @@
+/*================================ Satrt large screens =========================*/
+@media (min-width:2560px){
+}
+@media (min-width:1201px ) and (max-width: 1440px)
+{
+    .custom-select-trigger {
+        width: 100% !important;
+    }
+}
+@media (min-width:1025px) and (max-width:1200px)
+{
+
+}
+/*============================== Start medium screen of tablet =========================*/
+@media (min-width: 993px) and (max-width: 1024px)
+{
+    .services-product .products .card .more-info .more {
+        padding: 10px 15px !important;
+    }
+    .services-product .products .card .more-info .icon-more {
+        display: none;
+    }
+}
+@media (min-width: 769px) and (max-width: 992px)
+{
+
+}
+@media(max-width:992px)
+{
+
+}
+@media(min-width: 768px) and (max-width: 992px)
+{
+    .product .card-deck .card .card-body .card-content .salary .uper-line {
+        padding: 4px 15px;
+    }
+    .product .card-deck .card .card-body .card-content {
+        padding: 0 0 0 0;
+    }
+    section .card .images .card-img-top {
+        width: 215px !important;
+        height: 215px !important;
+    }
+}
+/*============================== Start small screen of mobile =========================*/
+@media(max-width:768px)
+{
+    .cart-table{
+        overflow: auto;
+    }
+    .services-product .products .card .more-info .icon-more{
+        display: none;
+    }
+    footer .button-footer {
+        padding: 20px 0
+    }
+    section .card-deck .card .card-body .card-content {
+        padding: 0;
+    }
+    section .card-deck .card .card-body .card-content .salary .uper-line {
+        padding: 4px 19px;
+    }
+    .services .services-content .card-services{
+        margin-bottom: 20px;
+    }
+    /* .services .services-content{
+        display: flex;
+        width: 50%;
+    } */
+    .record .record-content .input-group {
+        width: 100% !important;
+    }
+    .custom-select {
+        margin-bottom: 80px;
+    }
+    .product .search-box {
+        margin-bottom: 80px;
+    }
+    .services-product .inforamtion .custom-select {
+        margin-bottom: 20px;
+    }
+    .services-product .inforamtion .search-box {
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+    .order .tab-content .tab-pane .box-order .card-body .info-img-text {
+        display: block;
+    }
+    .register .image-register .heading-img h5 {
+        font-size: 22px;
+        left: 24%;
+    }
+    section .nav-taps .nav-item .nav-link {
+        padding: 11px 19px;
+    }
+    section .nav-taps {
+        padding: 8px 0px;
+    }
+    section .nav-taps .nav-item .nav-link {
+        font-size: 14px;
+    }
+    .gmap_canvas {
+        width: 200px !important;
+    }
+    .order .nav-taps .nav-item .nav-link {
+        padding: 11px 10px;
+    }
+    
+    section .cart-table .table thead tr th {
+    padding: 0 0;
+    }
+    .personal .tab-content .tab-pane .nav-cliks {
+        margin: 30px 0;
+        padding: 12px 0;
+    }
+    .services .services-content {
+        display: block;
+    }
+    section .card .images .card-img-top {
+        width: 300px;
+        height: 300px;
+    }
+}
+@media  (max-width: 425px)
+{
+    .record .record-content .input-group {
+        width: 100% !important;
+    }
+    .input-group {
+        display: block;
+    }
+    .record .record-content .input-group .email {
+        width: 100%;
+        border-radius: 10px;
+    }
+    .record .record-content .input-group .input-group-prepend {
+        border-radius: 10px;
+        margin-bottom: 20px;
+    }
+}
+@media (min-width: 577px) and (max-width: 768px)
+{
+    footer .footer-content {
+        float: none;
+    }
+    header .swiper-container .swiper-wrapper .swiper-slide .car-info .icons {
+        display: flex;
+    }
+    header .swiper-container .swiper-wrapper .swiper-slide .car-info .icons i {
+        padding: 10px 30px;
+    }
+    header .swiper-container .swiper-wrapper .swiper-slide .discription {
+        float: right;
+    }
+    header .swiper-container .swiper-wrapper .swiper-slide .discription .swiper-pagination {
+        display: flex !important;
+    }
+    header .swiper-container .swiper-wrapper .swiper-slide .discription .swiper-pagination {
+        position: absolute;
+        right: 0;
+        padding-top: 0;
+    }
+    header .swiper-container .swiper-wrapper .swiper-slide .discription .swiper-pagination-bullet {
+        margin-left: 17px;
+    }
+}
+@media(max-width:576px)
+{
+    footer .servicess a {
+        text-align: center;
+    }
+    footer .footer-content {
+        float: none;
+        text-align: center;
+    }
+    header .swiper-container .swiper-wrapper .swiper-slide .car-info .icons {
+        display: flex;
+        justify-content: space-between;
+    }
+    header .swiper-container .swiper-wrapper .swiper-slide .discription {
+        position: relative;
+        float: right;
+    }
+    
+    header .swiper-container .swiper-wrapper .swiper-slide .car-info .title{
+        text-align: center;
+        font-size: 31px;
+    }
+    header .swiper-container .swiper-wrapper .swiper-slide .car-info p {
+        text-align: center;
+    }
+    header .swiper-container .swiper-wrapper .swiper-slide .discription .swiper-pagination {
+        display: flex !important;
+    }
+    header .swiper-container .swiper-wrapper .swiper-slide .discription .swiper-pagination {
+        position: absolute;
+        right: 0;
+        padding-top: 0;
+    }
+    header .swiper-container .swiper-wrapper .swiper-slide .discription .swiper-pagination-bullet {
+        margin-left: 17px;
+    }
+}
+@media(min-width: 426px) and (max-width: 576px)
+{
+    .record .record-content .input-group {
+        width: 100% !important;
+    }
+    
+}
+@media (min-width: 376px) and (max-width: 425px)
+{
+
+}
+@media (min-width: 321px) and (max-width: 375px)
+{
+    .record .record-content .input-group .input-group-prepend {
+        border-radius: 10px;
+        margin-bottom: 20px;
+    }
+}
+@media (max-width: 320px)
+{
+    .services-product .products .card .moree .more {
+        font-size: 6px !important;
+        padding: 6px 13px !important;
+    }
+}
